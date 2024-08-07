@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reader-service
+server:
+  port: 8681
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
